@@ -26,7 +26,7 @@ function App() {
       <Container>
         <Menu darkMode={darkMode} setDarkMode={setDarkMode} />
         <Main>
-          <Navbar />
+          <Navbar/>
           <Wrapper>Video Cards</Wrapper>
         </Main>
         {/* {main} */}

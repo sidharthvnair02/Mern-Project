@@ -12,16 +12,14 @@ import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
 import SettingsBrightnessOutlinedIcon from "@mui/icons-material/SettingsBrightnessOutlined";
 
 const Container = styled.div`
-flex:1;
-background-color:#202020;
-height:100vh;
-color:white;
-font-size:14px
-position:sticky;
-top:0;
+  flex: 1;
+  background-color: ${({ theme }) => theme.bgLighter};
+  height: 100vh;
+  color: ${({ theme }) => theme.text};
+  font-size: 14px;
+  position: sticky;
+  top: 0;
 `;
-
-
 
 const Wrapper = styled.div`
 padding: 18px 26px
