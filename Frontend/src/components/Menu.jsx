@@ -10,6 +10,9 @@ import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import FlagOutlinedIcon from "@mui/icons-material/FlagOutlined";
 import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
 import SettingsBrightnessOutlinedIcon from "@mui/icons-material/SettingsBrightnessOutlined";
+import { Link } from "react-router-dom";
+
+
 
 const Container = styled.div`
   flex: 1;
@@ -20,25 +23,20 @@ const Container = styled.div`
   position: sticky;
   top: 0;
 `;
-
 const Wrapper = styled.div`
-padding: 18px 26px
-
-
+  padding: 18px 26px;
 `;
-
 const Logo = styled.div`
-  display:flex;
+  display: flex;
   align-items: center;
   gap: 5px;
   font-weight: bold;
   margin-bottom: 25px;
-   
 `;
 
-const Img= styled.img`
-height: 25px;
-`
+const Img = styled.img`
+  height: 25px;
+`;
 
 const Item = styled.div`
   display: flex;
@@ -58,20 +56,31 @@ const Hr = styled.hr`
 
 const Login = styled.div``;
 
+const Title = styled.h2`
+  font-size: 14px;
+  font-weight: 500;
+  color: #aaaaaa;
+  margin-bottom: 20px;
+`;
+
 
 
 const Menu = ({ darkMode, setDarkMode }) => {
   return (
     <Container>
       <Wrapper>
-        <Logo>
-          <Img src={image} />
-          Stream.io
-        </Logo>
+        <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+          <Logo>
+            <Img src={image} />
+            Stream.io
+          </Logo>
+        </Link>
+        <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
         <Item>
           <HomeIcon />
           Home
         </Item>
+        </Link>
         <Item>
           <ExploreOutlinedIcon />
           Explore
