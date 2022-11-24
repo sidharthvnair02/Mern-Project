@@ -56,12 +56,6 @@ const Hr = styled.hr`
 
 const Login = styled.div``;
 
-const Title = styled.h2`
-  font-size: 14px;
-  font-weight: 500;
-  color: #aaaaaa;
-  margin-bottom: 20px;
-`;
 
 
 
