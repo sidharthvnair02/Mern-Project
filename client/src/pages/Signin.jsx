@@ -1,3 +1,4 @@
+import axios from "axios";
 import React from "react";
 import styled from "styled-components";
 
@@ -50,18 +51,34 @@ const Button = styled.button`
 
 
 const SignIn = () => {
+  const [name,setName] = useState("")
+  const [email,setEmail] = useState("")
+  const [password,setPassword] = useState("")
+
+  const handleLogin = async (e) => {
+    e.preventDefault();
+    dispatch(loginStart());
+    try {
+      const res = await axios.post("/auth/signin", { name, password });
+      dispatch(loginSuccess(res.data));
+      navigate("/")
+    } catch (err) {
+      dispatch(loginFailure());
+    }
+  };
+
   return (
     <Container>
       <Wrapper>
         <Title>Sign in</Title>
         <SubTitle>to continue to Stream.io</SubTitle>
-        <Input placeholder="Username" />
-        <Input type="password" placeholder="Password" />
-        <Button>Sign in</Button>
+        <Input placeholder="Username" onChange={e=>setName(e.target.value)}/>
+        <Input type="password" placeholder="Password" onChange={e=>setPassword(e.target.value)}/>
+        <Button onClick={handleLogin}>Sign in</Button>
         <Title>OR</Title>
-        <Input placeholder="Username" />
-        <Input placeholder="Email" />
-        <Input type="password" placeholder="Password" />
+        <Input placeholder="Username" onChange={e=>setName(e.target.value)}/>
+        <Input placeholder="Email" onChange={e=>setEmail(e.target.value)}/>
+        <Input type="password" placeholder="Password" onChange={e=>setPassword(e.target.value)}/>
         <Button>Sign up</Button>
       </Wrapper>
     </Container>
