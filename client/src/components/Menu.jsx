@@ -60,22 +60,22 @@ const Login = styled.div``;
 
 
 const Menu = ({ darkMode, setDarkMode }) => {
+
+  const { currentUser } = useSelector((state) => state.user);
   return (
     <Container>
       <Wrapper>
         <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
           <Logo>
-            <Img src={image} />
-            Stream.io
+            <Img src={LamaTube} />
+            LamaTube
           </Logo>
         </Link>
-        <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
-          <Item>
-            <HomeIcon />
-            Home
-          </Item>
-        </Link>
-        <Link to="trends" style={{ textdecoration: "none",color:"inherit" }}>
+        <Item>
+          <HomeIcon />
+          Home
+        </Item>
+        <Link to="trends" style={{ textDecoration: "none", color: "inherit" }}>
           <Item>
             <ExploreOutlinedIcon />
             Explore
@@ -83,7 +83,7 @@ const Menu = ({ darkMode, setDarkMode }) => {
         </Link>
         <Link
           to="subscriptions"
-          style={{ textdecoration: "none", color: "inherit" }}
+          style={{ textDecoration: "none", color: "inherit" }}
         >
           <Item>
             <SubscriptionsOutlinedIcon />
@@ -100,25 +100,62 @@ const Menu = ({ darkMode, setDarkMode }) => {
           History
         </Item>
         <Hr />
-        <Login>
-          <Item>
-            <SettingsOutlinedIcon />
-            Settings
-          </Item>
-          <Item>
-            <FlagOutlinedIcon />
-            Report
-          </Item>
-          <Item>
-            <HelpOutlineOutlinedIcon />
-            Help
-          </Item>
-          <Item onClick={() => setDarkMode(!darkMode)}>
-            <SettingsBrightnessOutlinedIcon />
-            {darkMode ? "Light" : "Dark"} Mode
-          </Item>
-        </Login>
+        {!currentUser &&
+          <>
+            <Login>
+              Sign in to like videos, comment, and subscribe.
+              <Link to="signin" style={{ textDecoration: "none" }}>
+                <Button>
+                  <AccountCircleOutlinedIcon />
+                  SIGN IN
+                </Button>
+              </Link>
+            </Login>
+            <Hr />
+          </>
+        }
+        <Title>BEST OF LAMATUBE</Title>
+        <Item>
+          <LibraryMusicOutlinedIcon />
+          Music
+        </Item>
+        <Item>
+          <SportsBasketballOutlinedIcon />
+          Sports
+        </Item>
+        <Item>
+          <SportsEsportsOutlinedIcon />
+          Gaming
+        </Item>
+        <Item>
+          <MovieOutlinedIcon />
+          Movies
+        </Item>
+        <Item>
+          <ArticleOutlinedIcon />
+          News
+        </Item>
+        <Item>
+          <LiveTvOutlinedIcon />
+          Live
+        </Item>
         <Hr />
+        <Item>
+          <SettingsOutlinedIcon />
+          Settings
+        </Item>
+        <Item>
+          <FlagOutlinedIcon />
+          Report
+        </Item>
+        <Item>
+          <HelpOutlineOutlinedIcon />
+          Help
+        </Item>
+        <Item onClick={() => setDarkMode(!darkMode)}>
+          <SettingsBrightnessOutlinedIcon />
+          {darkMode ? "Light" : "Dark"} Mode
+        </Item>
       </Wrapper>
     </Container>
   );
