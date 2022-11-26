@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import axios from "axios";
 
 const Container = styled.div`
   width: ${(props) => props.type !== "sm" && "360px"};
@@ -50,22 +52,34 @@ const Info = styled.div`
   font-size: 14px;
   color: ${({ theme }) => theme.textSoft};
 `;
-const Card = () => {
+const Card = (type, video) => {
+  const [channel, setChannel] = useState([]);
+  useEffect(() => {
+    const fetchChannels = async () => {
+      const res = await axios.get(`/users/find/${video.userId}`);
+      setChannel(res.data);
+    };
+    fetchChannels();
+  }, [video.userId]);
+
   return (
-    <Link to="/video/test" style={{textDecoration:"none"}} >
-      <Container>
-        <Image />
-        <Details>
-          <ChannelImage />
+    <Link to={`/video/${video._id}`} style={{ textDecoration: "none" }}>
+      <Container type={type}>
+        <Image type={type} src={video.imgUrl} />
+        <Details type={type}>
+          <ChannelImage type={type} src={channel.img} />
           <Texts>
-            <Title>Test Video</Title>
-            <ChannelName>Ghostly</ChannelName>
-            <Info>12345 views · 5 days ago </Info>
+            <Title>{video.title}</Title>
+            <ChannelName>{channel.name}</ChannelName>
+            <Info>
+              {video.views} views • {(video.createdAt)}
+            </Info>
           </Texts>
         </Details>
       </Container>
     </Link>
   );
 };
+
 
 export default Card;
