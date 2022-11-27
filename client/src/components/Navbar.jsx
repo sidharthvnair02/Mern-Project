@@ -83,7 +83,7 @@ const Navbar = () => {
         {currentUser ? (
           <User>
             <VideocallOutlinedIcon/>
-            <Avatar/>
+            <Avatar scr={currentUser.img}/>
             {currentUser.name}
           </User>
         ) : <Link to="signin" style={{textdecoration:"none"}}>
