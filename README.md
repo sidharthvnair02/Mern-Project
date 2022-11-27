@@ -18,7 +18,16 @@ Mostly start-up companies wants a fast developer as they want to speed up the pr
 Atchitectural diagram
 Class diagram
 Stack such as libraries
-Requirements: node modules ke naam 
+
+#REQUIREMENTS:
+"express": "^4.18.1",
+"mongoose": "^6.4.3",
+"nodemon": "^2.0.19",
+"firebase": "^9.9.0",
+"react": "^18.0.0",
+
+
+
 Deployment koi password
 Ss optional
 What features have been implemented 
