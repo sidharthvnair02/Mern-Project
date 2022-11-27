@@ -15,16 +15,20 @@ Mostly start-up companies wants a fast developer as they want to speed up the pr
 
 
 
-Atchitectural diagram
-Class diagram
-Stack such as libraries
+Architectural diagram
+![Architecture Diagram Mern](https://user-images.githubusercontent.com/74295910/204125499-4a3e928e-4988-4e31-bc14-293f0a880824.png)
+
 
 #REQUIREMENTS:
 
 "express": "^4.18.1",
+
 "mongoose": "^6.4.3",
+
 "nodemon": "^2.0.19",
+
 "firebase": "^9.9.0",
+
 "react": "^18.0.0",
 
 
