@@ -104,6 +104,10 @@ const Subscribe = styled.button`
 `;
 
 const Video = () => {
+
+  const { currentUser } = useSelector((state) => state.user);
+  const dispatch = useDispatch();
+
   return (
     <Container>
       <Content>
