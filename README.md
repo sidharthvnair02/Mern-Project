@@ -36,7 +36,10 @@ Architectural diagram:
 
 
 
-Deployment koi password
-Ss optional
+SCREENSHOT:
+
+![image](https://user-images.githubusercontent.com/74295910/204153005-40527ba0-7cd2-4bc5-965e-dbac9d52b9d7.png)
+
+
 What features have been implemented 
 Future scope
