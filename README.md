@@ -64,5 +64,6 @@ Implementing dislike,like and comment function
 **•	Soham Shah** <br />
 **•	Mahir Mehta** 
 
-
+# Acknowledgement
+We would like to thank our Prof. Gopal Sonuna, Prof. Swapnil Pawar & Prof. Vaibhav Vasani for the constant guidance and support throughout the coursework.
 
