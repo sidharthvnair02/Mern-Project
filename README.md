@@ -40,6 +40,14 @@ Mostly start-up companies wants a fast developer as they want to speed up the pr
 
 ![image](https://user-images.githubusercontent.com/74295910/204153005-40527ba0-7cd2-4bc5-965e-dbac9d52b9d7.png)
 
+![image](https://user-images.githubusercontent.com/74295910/204153564-2f4de7e8-8b07-4d18-b34d-311f846b34dd.png)
+
+![image](https://user-images.githubusercontent.com/74295910/204153573-f1e7ace7-ca51-4af1-87be-f412db59bc24.png)
+
+![image](https://user-images.githubusercontent.com/74295910/204153580-c1290c9f-2fba-4ec6-ae10-0900a7966554.png)
+
+![image](https://user-images.githubusercontent.com/74295910/204153637-5d1c61ca-4f77-451f-bdab-50cb3fe39ad9.png)
+
 
 What features have been implemented 
 
