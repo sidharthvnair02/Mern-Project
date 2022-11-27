@@ -15,8 +15,11 @@ Mostly start-up companies wants a fast developer as they want to speed up the pr
 
 
 
-Architectural diagram
+Architectural diagram:
 ![Architecture Diagram Mern](https://user-images.githubusercontent.com/74295910/204125499-4a3e928e-4988-4e31-bc14-293f0a880824.png)
+
+![Sequence diagram](https://user-images.githubusercontent.com/74295910/204126668-a7c874c3-29e7-4343-9289-131561b6bf6e.png)
+
 
 
 #REQUIREMENTS:
