@@ -50,6 +50,7 @@ Mostly start-up companies wants a fast developer as they want to speed up the pr
 
 ![image](https://user-images.githubusercontent.com/80514750/204153756-23fc755b-d476-4c77-a200-ea6dcf821584.jpeg)
 
+![image](https://user-images.githubusercontent.com/82643868/204154005-408bb90f-923d-40d5-bc8a-d0906f24d7db.png)
 
 
 
