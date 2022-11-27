@@ -59,6 +59,10 @@ What features have been implemented
 
 Implementing dislike,like and comment function
 
+# Contributors:
+**•	Sidharth Nair** <br />
+**•	Soham Shah** <br />
+**•	Mahir Mehta** 
 
 
 
