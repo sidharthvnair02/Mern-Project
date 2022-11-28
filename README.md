@@ -2,6 +2,8 @@
 
 Video Streaming Platform
 
+**Introducing Stream.Io**
+
 # PROBLEM STATEMENT:
 
 This project is to create a video streaming platform in which user can upload and watch videos 
