@@ -37,6 +37,10 @@ Path (For routing or redirecting)
 **•	Uploading Videos** <br />
 **•	Viewing Videos** <br />
 **•	Light mode/Dark Mode** <br />
+**•	Playback Speed of Videos** <br />
+**•	Downloading the Videos** <br />
+**•	Picture in Picture mode** <br />
+
 # FUTURE SCOPE:
 
 Implementing dislike,like and comment function
