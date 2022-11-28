@@ -40,10 +40,11 @@ Path (For routing or redirecting)
 **•	Playback Speed of Videos** <br />
 **•	Downloading the Videos** <br />
 **•	Picture in Picture mode** <br />
+**•	Search ** <br />
 
 # FUTURE SCOPE:
 
-Implementing dislike, like, comment & search functionalities.
+Implementing dislike, like & comment functionalities.
 
 # Contributors:
 **•	Sidharth Nair** <br />
