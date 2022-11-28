@@ -43,7 +43,7 @@ Path (For routing or redirecting)
 
 # FUTURE SCOPE:
 
-Implementing dislike,like and comment function
+Implementing dislike, like, comment & search functionalities.
 
 # Contributors:
 **•	Sidharth Nair** <br />
