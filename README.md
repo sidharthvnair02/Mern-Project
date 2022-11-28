@@ -71,7 +71,8 @@ Implementing dislike, like & comment functionalities.
 
 ![image](https://user-images.githubusercontent.com/80514750/204154129-1c23dfaa-e59d-46b2-8f2c-c1eaadd7c49d.jpeg)
 
-![Uploading WhatsApp Image 2022-11-28 at 00.09.08.jpg…]()
+![WhatsApp Image 2022-11-28 at 00 09 08](https://user-images.githubusercontent.com/82643868/204240719-beca45ba-e285-4562-bea1-ce99074a2e20.jpg)
+
 
 
 # Acknowledgement
