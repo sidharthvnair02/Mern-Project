@@ -24,17 +24,27 @@ Mostly start-up companies wants a fast developer as they want to speed up the pr
 
 # REQUIREMENTS:
 
-"express": "^4.18.1",
+Bcrypt (for encrypting the passwords of users)
+Dotenv (for storing the connection url and other private credentials and global variables)
+Express (For routing)
+Mongoose (For database connection)
+Firebase (for file upload)
+Path (For routing or redirecting)
 
-"mongoose": "^6.4.3",
+# WHAT FEATURES ARE IMPLEMENTED: 
+  
+**•	Sign in using google authentication** <br />
+**•	Uploading Videos** <br />
+**•	Viewing Videos** <br />
+**•	Light mode/Dark Mode** <br />
+# FUTURE SCOPE:
 
-"nodemon": "^2.0.19",
+Implementing dislike,like and comment function
 
-"firebase": "^9.9.0",
-
-"react": "^18.0.0",
-
-
+# Contributors:
+**•	Sidharth Nair** <br />
+**•	Soham Shah** <br />
+**•	Mahir Mehta** 
 
 # SCREENSHOT:
 
@@ -56,20 +66,7 @@ Mostly start-up companies wants a fast developer as they want to speed up the pr
 
 ![image](https://user-images.githubusercontent.com/80514750/204154129-1c23dfaa-e59d-46b2-8f2c-c1eaadd7c49d.jpeg)
 
-# WHAT FEATURES ARE IMPLEMENTED: 
-  
-**•	Sign in using google authentication** <br />
-**•	Uploading Videos** <br />
-**•	Viewing Videos** <br />
-**•	Light mode/Dark Mode** <br />
-# FUTURE SCOPE:
 
-Implementing dislike,like and comment function
-
-# Contributors:
-**•	Sidharth Nair** <br />
-**•	Soham Shah** <br />
-**•	Mahir Mehta** 
 
 # Acknowledgement
 We would like to thank our Prof. Gopal Sonune, Prof. Swapnil Pawar & Prof. Vaibhav Vasani for the constant guidance and support throughout the coursework.
