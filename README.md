@@ -49,9 +49,9 @@ Path (For routing or redirecting)
 Implementing dislike, like & comment functionalities.
 
 # Contributors:
-**•	Sidharth Nair** <br />
-**•	Soham Shah** <br />
-**•	Mahir Mehta** 
+**•	Sidharth Nair:- 16010120032** <br />
+**•	Soham Shah:- 16010120046** <br />
+**•	Mahir Mehta:-16010120029** 
 
 # SCREENSHOT:
 
